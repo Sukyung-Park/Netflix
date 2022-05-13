@@ -1,13 +1,13 @@
-.App {
-  display: flex;
-  flex-direction: column;
-}
-/* @font-face {
+@font-face {
   font-family: "NetflixSansBlack";
   src: url("./font/netflix-sans/NetflixSansBlack.ttf");
-} */
+  font-display: fallback;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
-  font-family: "  NetflixSansBlack";
+  font-family: "NetflixSansBlack";
 }
 .content {
   color: #8b7f75;
@@ -25,10 +25,4 @@ a {
 }
 button {
   cursor: pointer;
-}
-.slick-slide > div {
-  margin: 0 5px;
-}
-.slick-list {
-  margin: 0 5px;
 }

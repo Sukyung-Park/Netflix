@@ -1,0 +1,52 @@
+.logo {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.svg__icon {
+  width: 157px;
+  height: 35px;
+  fill: #e50914;
+  margin-left: 55px;
+}
+.propfilebody {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.body__align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__text {
+  color: #ffffff;
+  font-size: 91px;
+  text-align: center;
+  padding-top: 20vh;
+  margin-bottom: 85px;
+}
+.loginimg {
+  width: 200px;
+  height: 200px;
+  padding: 0 20px;
+}
+.name {
+  font-size: 24px;
+  color: grey;
+  margin-top: 20px;
+  text-align: center;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  color: #808080;
+  width: 271px;
+  height: 76.91px;
+  font-size: 31.21px;
+  border: 1px solid #808080;
+  background-color: transparent;
+}
