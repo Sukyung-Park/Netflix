@@ -169,15 +169,22 @@
 }
 .romenticSlide {
   /* position: absolute; */
-  height: 230px;
+  /* height: 330px; */
   /* width: 2200.6px; */
 
   background-color: black;
 }
-.slide__text {
+/* .slide__text {
   color: #e5e5e5;
   font-size: 30px;
   font-weight: 550;
   margin-bottom: 25px;
   margin-left: 10px;
+  z-index: -1;
+}
+.slide {
+  z-index: 1;
+} */
+.kids {
+  margin-top: 5px;
 }

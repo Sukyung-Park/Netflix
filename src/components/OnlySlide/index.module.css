@@ -6,3 +6,6 @@
 .silder__tool {
   width: 2200px;
 }
+.card:hover {
+  scale: 1.5;
+}

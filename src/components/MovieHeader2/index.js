@@ -47,7 +47,7 @@ function Header() {
               <button className={styles.buttondg1}>
                 <FaSearch className={styles.searchbar} />
               </button>
-              <div>키즈</div>
+              <div className={styles.kids}>키즈</div>
               <button className={styles.buttondg2}>
                 <FaBell className={styles.bell} />
               </button>
@@ -95,8 +95,8 @@ const index = () => {
         </div>
 
         <div className={styles.movie__tool}>
-          <div className={styles.slide__text}>로맨틱한 한국 시리즈</div>
-          <RomenticSlide />
+          {/* <div className={styles.slide__text}>로맨틱한 한국 시리즈</div> */}
+          <RomenticSlide className={styles.slide} />
         </div>
       </div>
     </div>

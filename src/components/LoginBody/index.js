@@ -50,10 +50,15 @@ function Hi() {
               비밀번호는 6~60자 사이여야 합니다.
             </div>
           )}
-
-          <button onClick="profile" type="submit" className={styles.cont__btn}>
-            로그인
-          </button>
+          <Link to="/profile">
+            <button
+              onClick="profile"
+              type="submit"
+              className={styles.cont__btn}
+            >
+              로그인
+            </button>
+          </Link>
         </form>
 
         <div className={styles.login__section1}>
